@@ -26,28 +26,34 @@ Version Control maintains project integrity by doing the following:
   
 ## Describe the process of setting up a new repository on GitHub. What are the key steps involved, and what are some of the important decisions you need to make during this process?
 Log in to GitHub
+
 You can just navigate to GitHub.com and sign in to your account.
 If you don't have an account, create one by providing your email, username, and password.
 
 Create a New Repository
+
 Click on the "+" sign in the top right corner and select "New repository".
 Alternatively, visit GitHub’s repository creation page.
 
 Configure Repository Settings
+
 You will need to make a few key decisions at this stage:
 Repository Name: Choose a unique and descriptive name for your project.
 Description (Optional): Briefly explain the repository’s purpose.
 
 Choose Visibility Settings
+
 Public: Anyone can view and fork your repository. Ideal for open-source projects.
 Private: Only you and collaborators with permission can access the repository. Recommended for proprietary or sensitive projects.
 
 Initialize with Essential Files (Optional but Recommended)
+
 README.md: A markdown file to introduce and document the project.
 .gitignore: Specifies files to be ignored by Git, preventing unnecessary files (e.g., log files, temporary files) from being tracked.
 License: Defines how others can use, modify, or distribute the project. Open-source projects commonly use MIT, Apache, or GPL licenses.
 
 Create the Repository
+
 Click "Create repository" to finalize the setup.
 
 ## Discuss the importance of the README file in a GitHub repository. What should be included in a well-written README, and how does it contribute to effective collaboration?
@@ -75,7 +81,7 @@ npm install  # or pip install -r requirements.txt
 - Instructions on how to run and use the project.
 npm start
 - Screenshots or GIFs for UI-based projects to enhance clarity.
-- 
+  
 4. Features and Functionality
 Key features of the project.
 Bullet points summarizing its core capabilities.
@@ -89,6 +95,7 @@ Example:
 - Push changes (`git push origin feature-branch`)
 - Open a pull request
 - License Information
+
 Specifies how others can use or modify the project (e.g., MIT, Apache, GPL).
 
 6. Contact Information & Credits
